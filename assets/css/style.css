@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+#navbar1 {
+	background-color: #333;
+}
+
+#port-jumbo {
+	
+	border-radius: 10px;
+	width: 60%;
+	padding: 8em 4em;/* 8em 4em; 8em is top-bottom and 4em is horizontal (left and right); more responsive than pixels*/
+}
+
+#jumbo-div {
+	padding-bottom: 10%;
+	height: 100vh;
+	background-color: white; /*#333;  off black*/
+	border-radius: 0;  /*to remove jumbotron's rounded corners*/
+}
+
+.jumbotron h1 {
+	color: #333;
+}
+
+li {
+	list-style-type: none;
+}
+
+#landing1 {
+	height: 100%;
+	width: 100%;
+	background-color: #333;
+}
+
+#h1landing {
+	font-size: 30px;
+}
+
+#p1paragraph {
+	font-size: 25px;
+}
+
+
+.btn a {
+	text-decoration: none;
+	color: #f2f2f2;
+}
+
+#thegames {
+	width: auto;
+	height: 900vh;
+}
+
+#sellandtrade {
+	width: auto;
+	height: 900vh;
+}
+
+#forums1 {
+	width: auto;
+	height: 900vh;
+}
+
+#about1 {
+	width: auto;
+	height: 900vh;
+}
+
+
+
+
+
+
+
