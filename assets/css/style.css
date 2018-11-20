@@ -1,3 +1,5 @@
+
+
 *{
 	margin: 0;
 	padding: 0;
@@ -5,27 +7,12 @@
 	font-family: 'Raleway', sans-serif;
 }
 
+
 #navbar1 {
 	background-color: #333;
 }
 
-#port-jumbo {
-	
-	border-radius: 10px;
-	width: 60%;
-	padding: 8em 4em;/* 8em 4em; 8em is top-bottom and 4em is horizontal (left and right); more responsive than pixels*/
-}
 
-#jumbo-div {
-	padding-bottom: 10%;
-	height: 100vh;
-	background-color: white; /*#333;  off black*/
-	border-radius: 0;  /*to remove jumbotron's rounded corners*/
-}
-
-.jumbotron h1 {
-	color: #333;
-}
 
 li {
 	list-style-type: none;
@@ -70,6 +57,13 @@ li {
 	width: auto;
 	height: 100vh;
 }
+
+/*.footer {
+	position: absolute;
+	bottom: 0;
+	width:100%;
+}*/
+
 
 
 
