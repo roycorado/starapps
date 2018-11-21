@@ -9,23 +9,43 @@
 
 /*landing page*/
 
-
-
-.jumbortron hr {
-	background-color: none;/* white*/
+body, html {
+  height: 100%;
+  margin: 0;
+ 
+}
+#home-landing {
+		color: #f2f2f2; /*off white*/
+		font-weight: bold;
 }
 
-.btn a {
-	text-decoration: none;
-	color: #fff;
+.bg-image {
+
+  background-image: url("../images/jap1.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#jumbo-land {
-	height: 500vh;
-	padding-top: 10%;
-	border-radius: 0;
-	opacity: .1; 
+
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.8);  /*Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
 }
+
 
 
 li {
@@ -88,18 +108,19 @@ li {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-repeat: no-repeat;
-	/*color: #f2f2f2; /*off white*/
+	color: #f2f2f2; /*off white*/
 	height: 100vh;
 	/*font-family: 'Pattaya', sans-serif;*/
 	/*font-family: 'Anton', sans-serif;*/
-
-
-
 	padding: 20%;
+
+	/*Add the blur effect 
+    filter: blur(8px);
+    -webkit-filter: blur(8px);*/
 }
 
 #carousel-home {
-	height: 90vh;  /*height: 100vh*/
+	height: 90vh;  /*height: 100vh
 	max-height: 90vh;
 }
 
@@ -139,15 +160,10 @@ li {
 	margin-bottom: 50px;
 }
 
-}
+
 /*end of gallery page*/
 
 /*forum page*/
-#forum-page {
-	height: 500vh;
-	padding-top: 10%;
-	border-radius: 0;
-}
 
 #jumbotron-forum {
 	background-color: #141414;
@@ -155,4 +171,21 @@ li {
 	border-radius: 0;
 	margin-bottom: 0;
 }
+
+/*#forum-page {
+	height: 500vh;
+	padding-top: 10%;
+	border-radius: 0;
+}*/
+
 /* end forum page*/
+
+/*sell and trade page*/
+
+#jumbotron-sellandtrade {
+	background-color: #141414;
+	height: 90vh;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+/*end of sell and trade page*/
