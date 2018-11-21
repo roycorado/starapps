@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<title> AppStars | Gallery </title>
+
+	<!-- animate css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+
+	<!-- 	bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	
+
+</head>
+
+<body>
+
+		<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+			<a class="navbar-brand" href="home.html">
+				<i class="far fas fa-atom"></i>StarApps
+			</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"> <span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navbar-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="home.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>					
+					<li class="nav-item">
+						<a class="nav-link active" href="contact.html">Gallery</a>
+					</li>
+				</ul>
+			</div>
+		</nav> <!-- end nav -->
+
+		<div class="container-fluid">
+
+			<header id="head-gal" class="card my-5">
+				<h1 class="display-3 text-center">Gallery Page</h1>
+			</header>
+
+			<div class="row">
+				<div id="left" class="col-md-4 d-none d-sm-block">
+					<div class="list-group position-fixed">  <!-- will fix the fixed group -->
+						<h2 class="p-3">Categories</h2>
+
+						<a class="list-group-item list-group-item-action text-center" href="#">Item1</a>
+						<a class="list-group-item list-group-item-action text-center" href="#">Item2</a>
+						<a class="list-group-item list-group-item-action text-center" href="#">Item3</a>
+						<a class="list-group-item list-group-item-action text-center" href="#">Item4</a>
+						<a class="list-group-item list-group-item-action text-center" href="#">Item5</a>
+						<a class="list-group-item list-group-item-action text-center" href="#">Item5</a>
+					</div> <!-- end list group -->
+				</div> <!-- end left side -->
+
+				<div id="right" class="col-12 col-md-8">
+
+					<div class="container">
+						<div id="gallery-items" class="row">
+							<div class="col-12 col-md-6">
+								<div class="card" data-toggle="modal" data-target="#modal-1">
+									<img class="card-img-top img-fluid" src="assets/images/game.jpeg">
+									<h3 class="card-title text-center">Players at watch</h3>
+								</div>
+							</div> <!-- end first 6 -->
+							<div class="col-12 col-md-6 ">
+								<div class="card" data-toggle="modal" data-target="#modal-">
+									<img class="card-img-top img-fluid" src="assets/images/joseph-ngabo.jpg">
+									<h3 class="card-title text-center">California Palm Trees</h3>
+								</div>
+							</div> <!-- end of 2nd 6 -->
+						</div> <!-- end of nested row -->
+
+						<!-- modal itself -->
+						<div id="modal-1" class="modal fade">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<header class="modal-header">
+										<h5 class="modal-title">Gamers</h5>
+										<button class="close" data-dismiss="modal"><span>&times;</span></button>
+									</header> <!-- end of modal header -->
+									<div class="modal-body">
+										<img class="img-fluid" src="assets/images/game.jpeg">
+									</div> <!-- end modal body -->
+									<footer class="modal-footer">
+										<button class="btn btn-danger" data-dismiss="modal">Close</button>
+									</footer>  <!-- this is the close button -->
+								</div> <!-- end of modal content -->
+							</div> <!-- end of modal dialog -->
+						</div> <!-- end of modal -->
+
+						<div id="modal-2" class="modal fade">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<header class="modal-header">
+										<h5 class="modal-title">Gamers</h5>
+										<button class="close" data-dismiss="modal"><span>&times;</span></button>
+									</header> <!-- end of modal header -->
+									<div class="modal-body">
+										<img class="img-fluid" src="assets/images/game.jpeg">
+									</div> <!-- end modal body -->
+									<footer class="modal-footer">
+										<button class="btn btn-danger" data-dismiss="modal">Close</button>
+									</footer>  <!-- this is the close button -->
+								</div> <!-- end of modal content -->
+							</div> <!-- end of modal dialog -->
+						</div> <!-- end of modal 2 -->
+
+					</div>
+					<div class="container">
+						<div id="gallery-items" class="row">
+							<div class="col-12 col-md-6">
+								<div class="card" data-toggle="modal" data-target="#modal-1">
+									<img class="card-img-top img-fluid" src="assets/images/game.jpeg">
+									<h3 class="card-title text-center">Players at watch</h3>
+								</div>
+							</div> <!-- end first 6 -->
+							<div class="col-12 col-md-6">
+								<div class="card" data-toggle="modal" data-target="#modal-">
+									<img class="card-img-top img-fluid" src="assets/images/joseph-ngabo.jpg">
+									<h3 class="card-title text-center">California Palm Trees</h3>
+								</div>
+							</div> <!-- end of 2nd 6 -->
+						</div> <!-- end of nested row -->
+
+						<!-- modal itself -->
+						<div id="modal-1" class="modal fade">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<header class="modal-header">
+										<h5 class="modal-title">Gamers</h5>
+										<button class="close" data-dismiss="modal"><span>&times;</span></button>
+									</header> <!-- end of modal header -->
+									<div class="modal-body">
+										<img class="img-fluid" src="assets/images/game.jpeg">
+									</div> <!-- end modal body -->
+									<footer class="modal-footer">
+										<button class="btn btn-danger" data-dismiss="modal">Close</button>
+									</footer>  <!-- this is the close button -->
+								</div> <!-- end of modal content -->
+							</div> <!-- end of modal dialog -->
+						</div> <!-- end of modal -->
+						<div id="modal-2" class="modal fade">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<header class="modal-header">
+										<h5 class="modal-title">Gamers</h5>
+										<button class="close" data-dismiss="modal"><span>&times;</span></button>
+									</header> <!-- end of modal header -->
+									<div class="modal-body">
+										<img class="img-fluid" src="assets/images/game.jpeg">
+									</div> <!-- end modal body -->
+									<footer class="modal-footer">
+										<button class="btn btn-danger" data-dismiss="modal">Close</button>
+									</footer>  <!-- this is the close button -->
+								</div> <!-- end of modal content -->
+							</div> <!-- end of modal dialog -->
+						</div> <!-- end of modal 2 -->
+
+					</div>
+					<div class="container">
+						<div id="gallery-items" class="row">
+							<div class="col-12 col-md-6">
+								<div class="card" data-toggle="modal" data-target="#modal-1">
+									<img class="card-img-top img-fluid" src="assets/images/game.jpeg">
+									<h3 class="card-title text-center">Players at watch</h3>
+								</div>
+							</div> <!-- end first 6 -->
+							<div class="col-12 col-md-6">
+								<div class="card" data-toggle="modal" data-target="#modal-">
+									<img class="card-img-top img-fluid" src="assets/images/joseph-ngabo.jpg">
+									<h3 class="card-title text-center">California Palm Trees</h3>
+								</div>
+							</div> <!-- end of 2nd 6 -->
+						</div> <!-- end of nested row -->
+
+						<!-- modal itself -->
+						<div id="modal-1" class="modal fade">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<header class="modal-header">
+										<h5 class="modal-title">Gamers</h5>
+										<button class="close" data-dismiss="modal"><span>&times;</span></button>
+									</header> <!-- end of modal header -->
+									<div class="modal-body">
+										<img class="img-fluid" src="assets/images/game.jpeg">
+									</div> <!-- end modal body -->
+									<footer class="modal-footer">
+										<button class="btn btn-danger" data-dismiss="modal">Close</button>
+									</footer>  <!-- this is the close button -->
+								</div> <!-- end of modal content -->
+							</div> <!-- end of modal dialog -->
+						</div> <!-- end of modal -->
+						<div id="modal-2" class="modal fade">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<header class="modal-header">
+										<h5 class="modal-title">Gamers</h5>
+										<button class="close" data-dismiss="modal"><span>&times;</span></button>
+									</header> <!-- end of modal header -->
+									<div class="modal-body">
+										<img class="img-fluid" src="assets/images/game.jpeg">
+									</div> <!-- end modal body -->
+									<footer class="modal-footer">
+										<button class="btn btn-danger" data-dismiss="modal">Close</button>
+									</footer>  <!-- this is the close button -->
+								</div> <!-- end of modal content -->
+							</div> <!-- end of modal dialog -->
+						</div> <!-- end of modal 2 -->
+
+					</div>
+					<div class="container">
+						<div id="gallery-items" class="row">
+							<div class="col-12 col-md-6">
+								<div class="card" data-toggle="modal" data-target="#modal-1">
+									<img class="card-img-top img-fluid" src="assets/images/game.jpeg">
+									<h3 class="card-title text-center">Players at watch</h3>
+								</div>
+							</div> <!-- end first 6 -->
+							<div class="col-12 col-md-6">
+								<div class="card" data-toggle="modal" data-target="#modal-">
+									<img class="card-img-top img-fluid" src="assets/images/joseph-ngabo.jpg">
+									<h3 class="card-title text-center">California Palm Trees</h3>
+								</div>
+							</div> <!-- end of 2nd 6 -->
+						</div> <!-- end of nested row -->
+
+						<!-- modal itself -->
+						<div id="modal-1" class="modal fade">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<header class="modal-header">
+										<h5 class="modal-title">Gamers</h5>
+										<button class="close" data-dismiss="modal"><span>&times;</span></button>
+									</header> <!-- end of modal header -->
+									<div class="modal-body">
+										<img class="img-fluid" src="assets/images/game.jpeg">
+									</div> <!-- end modal body -->
+									<footer class="modal-footer">
+										<button class="btn btn-danger" data-dismiss="modal">Close</button>
+									</footer>  <!-- this is the close button -->
+								</div> <!-- end of modal content -->
+							</div> <!-- end of modal dialog -->
+						</div> <!-- end of modal -->
+						<div id="modal-2" class="modal fade">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<header class="modal-header">
+										<h5 class="modal-title">Gamers</h5>
+										<button class="close" data-dismiss="modal"><span>&times;</span></button>
+									</header> <!-- end of modal header -->
+									<div class="modal-body">
+										<img class="img-fluid" src="assets/images/game.jpeg">
+									</div> <!-- end modal body -->
+									<footer class="modal-footer">
+										<button class="btn btn-danger" data-dismiss="modal">Close</button>
+									</footer>  <!-- this is the close button -->
+								</div> <!-- end of modal content -->
+							</div> <!-- end of modal dialog -->
+						</div> <!-- end of modal 2 -->
+
+					</div>
+					
+				</div> <!-- end right side -->
+				
+			</div> <!-- end rows -->
+			
+		</div>
+
+
+
+
+
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then popper.js, then Bootstrap JS -->
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+	<script src="assets/js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+
+</html>

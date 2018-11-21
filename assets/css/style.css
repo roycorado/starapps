@@ -7,56 +7,109 @@
 	font-family: 'Raleway', sans-serif;
 }
 
+/*landing page*/
 
-#navbar1 {
-	background-color: #333;
+
+
+.jumbortron hr {
+	background-color: none;/* white*/
 }
 
+.btn a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#jumbo-land {
+	height: 500vh;
+	padding-top: 10%;
+	border-radius: 0;
+	opacity: .1; 
+}
 
 
 li {
 	list-style-type: none;
 }
+/*.jumbotron {
+	color: #333; 
+}*/ /*black*/
 
-#landing1 {
+/*end of landing page*/
+
+
+/*about us page*/
+
+#jumbotron-about {
+	background-color: #141414;
+	height: 90vh;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+#landing-about {
+	color: #f2f2f2;
+	font-size: 5em;
+	padding: 20vh;
+	letter-spacing: 5px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.about-tags {
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#mission {
 	height: 100%;
-	width: 100%;
+	background-color: #141414;  /*off black*/
+	color: #f2f2f2; /*off white*/
+}
+
+#vision {
+	height: 100%;
+	background-color: #f2f2f2; /*off white*/   
+	color: #141414;  /*off black*/
+}
+
+/*end of about us page*/
+
+
+
+/*home page*/
+#navbar1 {
 	background-color: #333;
 }
 
-#h1landing {
-	font-size: 30px;
+#home-landing {
+	background-image: url(../images/landingbest.jpeg);
+	background-position: center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	/*color: #f2f2f2; /*off white*/
+	height: 100vh;
+	/*font-family: 'Pattaya', sans-serif;*/
+	/*font-family: 'Anton', sans-serif;*/
+
+
+
+	padding: 20%;
 }
 
-#p1paragraph {
-	font-size: 25px;
+#carousel-home {
+	height: 90vh;  /*height: 100vh*/
+	max-height: 90vh;
 }
 
 
-.btn a {
+/*.btn a {
 	text-decoration: none;
 	color: #f2f2f2;
-}
+}*/
 
-#thegames {
-	width: auto;
-	height: 100vh;
-}
 
-#sellandtrade {
-	width: auto;
-	height: 100vh;
-}
-
-#forums1 {
-	width: auto;
-	height: 100vh;
-}
-
-#about1 {
-	width: auto;
-	height: 100vh;
-}
 
 /*.footer {
 	position: absolute;
@@ -64,10 +117,42 @@ li {
 	width:100%;
 }*/
 
+/*end of home page*/
 
 
+/*gallery page*/
+#head-gal {
+	margin-top: 8%;
+	background-color: #141414; /*off black*/
+	color: #f2f2f2; /*off white*/
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+}
 
+#gallery-items .card {
+	height: 400px;
+	margin-bottom: 20px;
+}
 
+#gallery-items .card img {
+	height: 250px;
+	margin-bottom: 50px;
+}
 
+}
+/*end of gallery page*/
 
+/*forum page*/
+#forum-page {
+	height: 500vh;
+	padding-top: 10%;
+	border-radius: 0;
+}
 
+#jumbotron-forum {
+	background-color: #141414;
+	height: 90vh;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+/* end forum page*/
