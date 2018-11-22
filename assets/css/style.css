@@ -29,11 +29,11 @@ body, html {
 
 
 .bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
+  /*background-color: rgb(0,0,0);*/
   background-color: rgba(0,0,0, 0.8);  /*Black w/opacity/see-through */
   color: white;
   font-weight: bold;
-  border: 3px solid #f1f1f1;
+  border: 3px solid #141414;  /*off black*/
   position: absolute;
   top: 50%;
   left: 50%;
@@ -46,13 +46,15 @@ body, html {
 }
 
 .edit-tbn {
-	background-color: none;
+	background-color: skyblue;
 	
 }
  
 .edit-tbn > a {
 	text-decoration: none;
-	color: #141414;  /*off black*/
+	color:  #141414;  /*off black*/
+	font-weight: bold;
+	font-size: 20px;
 }
 
 li {
@@ -65,14 +67,24 @@ li {
 /*end of landing page*/
 
 
+
+
 /*about us page*/
 
 #jumbotron-about {
-	background-color: #141414;
-	height: 90vh;
-	border-radius: 0;
-	margin-bottom: 0;
-}
+ 	background-color: lightblue;
+ 	height: 100vh; /*vh is viewport*/
+ 	width: 100%;
+ 	position: relative;
+ 	background-image: url("../images/bk2.jpg");  
+ 	background-size: cover;      
+ 	background-repeat: no-repeat; 
+ 	background-attachment: fixed; 
+ 	background-position: center;
+ 	font-family: 'Montserrat', sans-serif;
+ 	margin-bottom: 0;
+
+ }
 
 #landing-about {
 	color: #f2f2f2;
@@ -108,24 +120,20 @@ li {
 	background-color: #4B595E;/*#333;*/
 }
 
-#home-landing {
-	background-image: url(../images/landingbest.jpeg);
-	background-position: center center;
-	width: 100%;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-repeat: no-repeat;
-	color: #f2f2f2; /*off white*/
-	height: 100vh;
-	padding: 20%;
-
-	font-weight: bold;
-	font-size: 5em;
-	margin-bottom: 0;
-	text-align: center;
+#jumbotron-home {
+ 	background-color: lightblue;
+ 	height: 90vh; /*vh is viewport*/
+ 	width: 100%;
+ 	position: relative;
+ 	background-image: url(../images/landingbest.jpeg);  
+ 	background-size: cover;      
+ 	background-repeat: no-repeat; 
+ 	background-attachment: fixed; 
+ 	background-position: center;
+ 	font-family: 'Montserrat', sans-serif;
+ 	margin-bottom: 0;
 }
+
 
 #carousel-home {
 	height: 90vh;  
@@ -133,11 +141,13 @@ li {
 }
 
 #p-home {
-	background-color: #2C2D2E;
-	color: #f2f2f2; /*off white*/
+	background-color: #4B595E;
+	color: #141414;  /*off black*/
 	margin-bottom: 0;
 	padding: 15px;
 	font-size: 3em;
+	border: 2px solid #f2f2f2; /*off white*/
+	border-radius: 10px;
 }
 
 .register {
@@ -147,6 +157,8 @@ li {
 	color: #f2f2f2; /*off white*/
 	padding-left: 300px;
 	padding-right: 300px;
+	border: 3px solid #4B595E;
+	border-radius: 10px;
 }
 
 .register > .down {
@@ -168,7 +180,23 @@ li {
 	/*visibility: hidden;*/
 }
 
+.box1 {
+ 	border: 5px solid #f2f2f2; /*off white*/
+ 	color: black;
+ 	text-align: center; 
+ 	width: 40%;
+ 	padding: 30px;
+ 	position: absolute;
+ 	top: 40%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%); /* x and y values*/
+ 	border-radius: 10px;
+ }
 
+.card {
+	border: 3px solid #4B595E;
+	border-radius: 10px;
+}
 /*.btn a {
 	text-decoration: none;
 	color: #f2f2f2;
@@ -185,14 +213,60 @@ li {
 /*end of home page*/
 
 
-/*gallery page*/
-#head-gal {
-	margin-top: 8%;
-	background-color: #141414; /*off black*/
-	color: #f2f2f2; /*off white*/
-	text-transform: uppercase;
-	letter-spacing: 0.5em;
+/*contact us page*/
+
+#jumbotron-contact {
+ 	background-color: lightblue;
+ 	height: 90vh; /*vh is viewport*/
+ 	width: 100%;
+ 	position: relative;
+ 	background-image: url("../images/game.jpeg");  
+ 	background-size: cover;      
+ 	background-repeat: no-repeat; 
+ 	background-attachment: fixed; 
+ 	background-position: center;
+ 	font-family: 'Montserrat', sans-serif;
+ 	margin-bottom: 0;
 }
+
+.row {
+	height: 75vh;
+	width: 100%;
+	margin-top: 25px;
+}
+.left-side {
+border: 2px solid #141414;
+padding: 5px; 
+border-radius: 10px; 
+}
+
+.right-side {
+border: 2px solid #141414;
+padding: 5px 5px 0px 5px; 
+border-radius: 10px;
+padding-bottom: 0px;
+}
+
+/*end of contact us */
+
+
+/*gallery page*/
+#jumbotron-gallery {
+ 	background-color: lightblue;
+ 	height: 90vh; /*vh is viewport*/
+ 	width: 100%;
+ 	position: relative;
+ 	background-image: url("../images/bg10.jpg");  
+ 	background-size: cover;      
+ 	background-repeat: no-repeat; 
+ 	background-attachment: fixed; 
+ 	background-position: center;
+ 	font-family: 'Montserrat', sans-serif;
+ 	margin-bottom: 0;
+}
+
+
+
 
 #gallery-items .card {
 	height: 400px;
@@ -208,7 +282,74 @@ li {
 /*end of gallery page*/
 
 /*forum page*/
+#jumbotron-forum {
+ 	background-color: lightblue;
+ 	height: 90vh; /*vh is viewport*/
+ 	width: 100%;
+ 	position: relative;
+ 	background-image: url("../images/bk3.jpg");  
+ 	background-size: cover;      
+ 	background-repeat: no-repeat; 
+ 	background-attachment: fixed; 
+ 	background-position: center;
+ 	font-family: 'Montserrat', sans-serif;
+ 	margin-bottom: 0;
+ }
+ /*end home*/
 
+.forum1 {
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+	color: #f2f2f2; /*off white*/
+	background-color: rgba(0,0,0, 0.75);
+	padding: 10px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 45px;
+}
+
+ .box {
+ 	border: 5px solid #141414; /*off black*/
+ 	color: black;
+ 	text-align: center; 
+ 	width: 40%;
+ 	padding: 30px;
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%); /* x and y values*/
+ 	border-radius: 10px;
+ }
+
+ #down {
+	position: absolute;
+	bottom: 0;
+	/*text-align: center;*/
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(97,203,217, 1);
+}
+
+
+.down a {
+	color: #f2f2f2; /*off white*/
+	text-decoration: none;
+	padding: 10px;
+	/*color: #333;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 #jumbotron-forum {
 	background-image: url("../images/bk3.jpg");
 	background-position: center center;
@@ -219,7 +360,7 @@ li {
 	-o-background-size: cover;
 	background-repeat: no-repeat;
 
-	/*background-color: #141414; */
+	background-color: #141414; 
 	height: 90vh;
 	border-radius: 0;
 	margin-bottom: 0;
@@ -228,14 +369,14 @@ li {
 
 
 #landing-forum {
-	color: #f2f2f2; /*off white*/
-	/*height: 100vh;*/
+	color: #f2f2f2; off white
+	
 	font-weight: bold;
 	font-size: 5em;
 	font-family: 'Montserrat', sans-serif;
 
 
-}
+*/
 
 
 
@@ -252,11 +393,19 @@ li {
 /*sell and trade page*/
 
 #jumbotron-sellandtrade {
-	background-color: #141414;
-	height: 90vh;
-	border-radius: 0;
-	margin-bottom: 0;
-}
+ 	background-color: lightblue;
+ 	height: 90vh; /*vh is viewport*/
+ 	width: 100%;
+ 	position: relative;
+ 	background-image: url("../images/landing3.jpg");  
+ 	background-size: cover;      
+ 	background-repeat: no-repeat; 
+ 	background-attachment: fixed; 
+ 	background-position: center;
+ 	font-family: 'Montserrat', sans-serif;
+ 	margin-bottom: 0;
+ }
+ 
 /*end of sell and trade page*/
 
 /*Desktop Styles*/
@@ -272,7 +421,7 @@ li {
 /*Mobile Styles */
 @media only screen and (max-width: 400px) {
 
-	#home-landing {
+	#jumbotron-home {
 		background-image: url(../images/bk3.jpg);
 	}
 
