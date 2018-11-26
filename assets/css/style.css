@@ -1,5 +1,4 @@
 
-
 *{
 	margin: 0;
 	padding: 0;
@@ -57,12 +56,15 @@ body, html {
 	font-size: 20px;
 }
 
+
 li {
 	list-style-type: none;
 }
-/*.jumbotron {
-	color: #333; 
-}*/ /*black*/
+
+.my-4 {
+	color: #f2f2f2; /*off white*/
+}
+
 
 /*end of landing page*/
 
@@ -181,7 +183,7 @@ li {
 }
 
 .box1 {
- 	border: 5px solid #f2f2f2; /*off white*/
+ 	border: 2px solid #141414; /*off white*/
  	color: black;
  	text-align: center; 
  	width: 40%;
@@ -195,7 +197,23 @@ li {
 
 .card {
 	border: 3px solid #4B595E;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	border-radius: 10px;
+	width: 250px;
+	height: 350px;
+	margin: auto;
+	margin-left: 2px;
+	margin-right: 2px;
+
+}
+
+.col-container {
+	display: flex;
+	width: 100%;
+}
+
+.col {
+	flex: 1;
 }
 /*.btn a {
 	text-decoration: none;
@@ -206,9 +224,8 @@ li {
 .footer {
 	min-height: 50px;
 	padding: 15px;
-	border-radius: 10px;
 	margin-bottom: 0px;
-
+	position: relative;
 }
 
 .contact {
@@ -318,7 +335,7 @@ padding-bottom: 0px;
 }
 
  .box {
- 	border: 5px solid #141414; /*off black*/
+ 	border: 2px solid #141414; /*off black*/
  	color: black;
  	text-align: center; 
  	width: 40%;
